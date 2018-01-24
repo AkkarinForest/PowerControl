@@ -1,0 +1,32 @@
+# WARNING! Before changing anything make a backup of this file.
+# Only use recommended values for making changes.
+# 
+#
+# Enter 'file' to read input from files or 'shell' to use interactive mode.
+readinput = file
+#
+# Provide full file name or leave empty if using shell mode. 
+file_name = input.txt
+# Keep this file in the same directory as main program.
+#
+# Choose 'PCA1' for basic algorithm or 'PCA2' for advance algorithm
+algorithm = PCA1
+#
+# Choose range from 1 to 8 for 'PCA2' or leave defaults for 'PCA1'
+window = defaults
+#
+# Choose range from 1 to 3 for 'PCA2' or leave defaults for 'PCA1'
+recovered_as_previous = defaults
+#
+# Enter the target value as an integer between -55 to -85
+target = -75
+#
+# Enter hysteresis value as an integer between 1 to 10
+hysteresis = 5
+#
+# Turn on and off the handover algoritm:
+handover = off
+#
+# Turn on and off graphical statistics:
+graphs = off
+#

@@ -411,4 +411,3 @@ while input_read == "correct":
 
 if graphs == 'on' and input_read == 'correct':
     graphic_function()
-
