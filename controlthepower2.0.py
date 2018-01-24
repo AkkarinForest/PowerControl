@@ -1,12 +1,10 @@
-"""Authors: Alexander Suminski, Marta Kubis, Marta Tomalska,
-            Firdevs Kokkokoglu-Irfan, Elzbieta Lukaszewicz.
+"""Author: Alexander Suminski
 
-Date: 20.07.2017.
-This code has two versions: basic- 'PCA1', advanced- 'PCA2. PCA1 is set as
+This program has two versions: basic- 'PCA1', advanced- 'PCA2. PCA1 is set as
 a default in configuration.txt file. Code displays commands to increase MS
 or BTS power to match target range for signal strength.
 
-Version 2.0
+
 
 PCA1 takes as an input strings of characters with:
     - direction of transmission (DL - downlink: measurement comes from MS, UL
@@ -30,7 +28,7 @@ configuration.txt file:
     - recovered_as_previous: enables assigning n (from 1 to 3) times
       previous value when given are incorrect
 
-Date: 23.07.2017
+Version 2.0
 Changes:
     - '\ufeff' bug at the beginning of file fixed by adding file.seek(3) option
     after file opening
@@ -249,7 +247,7 @@ def graphic_function():
         plt.clf()
 
 
-# Following code works with configuration.txt file.
+# Following code reads the configuration.txt file.
 try:
     file = open('configuration.txt', 'r', encoding="utf-8")
     configs = []  # list with arguments from configuration.txt
@@ -323,6 +321,7 @@ else:           # when configuration was unsuccessful
 
 
 # MAIN CODE
+
 while input_read == "correct":
 
     if readinput == "file":
