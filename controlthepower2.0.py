@@ -1,5 +1,4 @@
-"""Author: Alexander Suminski
-
+"""
 This program has two versions: basic- 'PCA1', advanced- 'PCA2. PCA1 is set as
 a default in configuration.txt file. Code displays commands to increase MS
 or BTS power to match target range for signal strength.
